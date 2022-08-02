@@ -1,11 +1,10 @@
 .quoteslist{
     margin: 0; padding: 0;
-    width: 95%;
+    width: 100%;
 }
 
 .quoteslist li{
     list-style-type: none;
-    width: 100%;
     padding: 1.5em;
     
     border-radius: 5px;
