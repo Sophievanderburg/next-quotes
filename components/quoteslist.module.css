@@ -1,0 +1,66 @@
+.quoteslist{
+    margin: 0; padding: 0;
+    width: 95%;
+}
+
+.quoteslist li{
+    list-style-type: none;
+    width: 100%;
+    padding: 1.5em;
+    
+    border-radius: 5px;
+    border-left: 3px solid #b4dcce;
+    background-color: #effaf6;
+    margin-bottom: 1em;
+}
+
+.quoteslist li:nth-of-type(4n+1){
+    border-left: 3px solid #E7615A;
+    background-color: #ffddd9;
+}
+
+.quoteslist li:nth-of-type(4n+2){
+    border-left: 3px solid #26344B;
+    background-color: #D6D6EB;
+}
+
+.quoteslist li:nth-of-type(4n+3){
+    border-left: 3px solid #E78731;
+    background-color: #ffe9d5;
+}
+
+.quoteslist li div{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* The name */
+.quoteslist li div h3{
+    margin-left: 0.5em;
+    font-family: sofia-pro, sans-serif;
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* The quote */
+.quoteslist li > p{
+    font-size: 32px;
+    line-height: 32px;
+    font-family: lust, serif;
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.quoteslist li div img{
+    width: 10vw;
+    max-width: 70px;
+    height: 10vw;
+    max-height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 10% 50%;
+}
